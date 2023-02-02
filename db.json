@@ -1,0 +1,173 @@
+{
+  "batches": [
+    {
+      "id": 1,
+      "numBoxes": 200,
+      "product": "Blueberries",
+      "variety": "Alba",
+      "arrivalTimestamp": "2022-12-18 22:03:16",
+      "latestInspectionTimestamp": "2022-12-20 09:52:35",
+      "latestQualityScore": "A"
+    },
+    {
+      "id": 2,
+      "numBoxes": 10,
+      "product": "Mangos",
+      "variety": "Alphonso",
+      "arrivalTimestamp": "2022-12-20 20:33:50",
+      "latestInspectionTimestamp": "2022-12-21 11:17:03",
+      "latestQualityScore": "B"
+    },
+    {
+      "id": 3,
+      "numBoxes": 75,
+      "product": "Blueberries",
+      "variety": "Magica",
+      "arrivalTimestamp": "2022-12-22 22:33:08",
+      "latestInspectionTimestamp": "2022-12-25 12:51:54",
+      "latestQualityScore": "D"
+    },
+    {
+      "id": 4,
+      "numBoxes": 115,
+      "product": "Strawberries",
+      "variety": "Amelia",
+      "arrivalTimestamp": "2022-12-26 03:50:51",
+      "latestInspectionTimestamp": "2022-12-26 23:04:02",
+      "latestQualityScore": "A"
+    },
+    {
+      "id": 5,
+      "numBoxes": 425,
+      "product": "Strawberries",
+      "variety": "Elvira",
+      "arrivalTimestamp": "2022-12-27 21:54:20",
+      "latestInspectionTimestamp": "2022-12-29 18:29:14",
+      "latestQualityScore": "C"
+    },
+    {
+      "id": 6,
+      "numBoxes": 25,
+      "product": "Blueberries",
+      "variety": "Alba",
+      "arrivalTimestamp": "2022-12-31 01:55:19",
+      "latestInspectionTimestamp": "2023-01-02 08:39:23",
+      "latestQualityScore": "B"
+    }
+  ],
+  "tasks": [
+    {
+      "inspectorName": "Inspector A",
+      "batchId": 5,
+      "numBoxes": 425,
+      "product": "Strawberries",
+      "variety": "Elvira",
+      "arrivalTimestamp": "2022-12-27 21:54:20",
+      "latestInspectionTimestamp": "2022-12-29 18:29:14",
+      "latestQualityScore": "C",
+      "status": "DONE",
+      "id": 4
+    },
+    {
+      "inspectorName": "Inspector B",
+      "batchId": 4,
+      "numBoxes": 115,
+      "product": "Strawberries",
+      "variety": "Amelia",
+      "arrivalTimestamp": "2022-12-26 03:50:51",
+      "latestInspectionTimestamp": "2022-12-26 23:04:02",
+      "latestQualityScore": "A",
+      "status": "DONE",
+      "id": 5
+    },
+    {
+      "inspectorName": "Inspector C",
+      "batchId": 2,
+      "numBoxes": 10,
+      "product": "Mangos",
+      "variety": "Alphonso",
+      "arrivalTimestamp": "2022-12-20 20:33:50",
+      "latestInspectionTimestamp": "2022-12-21 11:17:03",
+      "latestQualityScore": "B",
+      "status": "DONE",
+      "id": 6
+    },
+    {
+      "inspectorName": "Inspector A",
+      "batchId": 1,
+      "numBoxes": 200,
+      "product": "Blueberries",
+      "variety": "Alba",
+      "arrivalTimestamp": "2022-12-18 22:03:16",
+      "latestInspectionTimestamp": "2022-12-20 09:52:35",
+      "latestQualityScore": "A",
+      "status": "TODO",
+      "id": 7
+    },
+    {
+      "inspectorName": "Inspector C",
+      "batchId": 3,
+      "numBoxes": 75,
+      "product": "Blueberries",
+      "variety": "Magica",
+      "arrivalTimestamp": "2022-12-22 22:33:08",
+      "latestInspectionTimestamp": "2022-12-25 12:51:54",
+      "latestQualityScore": "D",
+      "status": "TODO",
+      "id": 8
+    },
+    {
+      "inspectorName": "Inspector C",
+      "batchId": 2,
+      "numBoxes": 10,
+      "product": "Mangos",
+      "variety": "Alphonso",
+      "arrivalTimestamp": "2022-12-20 20:33:50",
+      "latestInspectionTimestamp": "2022-12-21 11:17:03",
+      "latestQualityScore": "B",
+      "status": "TODO",
+      "id": 9
+    },
+    {
+      "inspectorName": "Inspector B",
+      "batchId": 5,
+      "numBoxes": 425,
+      "product": "Strawberries",
+      "variety": "Elvira",
+      "arrivalTimestamp": "2022-12-27 21:54:20",
+      "latestInspectionTimestamp": "2022-12-29 18:29:14",
+      "latestQualityScore": "C",
+      "status": "TODO",
+      "id": 10
+    },
+    {
+      "inspectorName": "Inspector A",
+      "batchId": 1,
+      "numBoxes": 200,
+      "product": "Blueberries",
+      "variety": "Alba",
+      "arrivalTimestamp": "2022-12-18 22:03:16",
+      "latestInspectionTimestamp": "2022-12-20 09:52:35",
+      "latestQualityScore": "A",
+      "status": "TODO",
+      "id": 11
+    }
+  ],
+  "inspectors": [
+    {
+      "id": 1,
+      "type": "inspector",
+      "name": "Inspector A"
+    },
+    {
+      "id": 2,
+      "type": "inspector",
+      "name": "Inspector B"
+    },
+    {
+      "id": 3,
+      "type": "inspector",
+      "name": "Inspector C"
+    }
+  ]
+}
